@@ -1,0 +1,102 @@
+@font-face{
+ font-family:'SSSR';
+    src: url("SSSR");
+}
+
+body{
+    background-color: gray;
+    margin: 0;
+    background-image: url("depositphotos_73632691-stock-illustration-watercolor-flowers-pattern.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer{
+    background-color:lightpink;
+     height: 150px;
+    padding: 30px;
+    box-sizing: border-box;
+display: flex;
+
+}
+
+header{
+    background-color:lightpink;
+    height: 200px;
+  
+}
+
+.hea{
+    margin: 0px;
+   text-align: center;
+    font-size: 80px;
+    color:deeppink;
+    padding-top:0px;
+
+}
+main{
+    background-color: white;
+    width: 700px;
+    height: 1600px;
+    margin:auto;
+    padding-top:200px;
+    
+}
+
+
+.ik{
+     width: 75px;
+    height: 75px;
+     border-radius: 50%;
+    background-color: crimson;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 70px;
+}
+ 
+.ik1{
+    margin-left:auto;
+}
+
+.ik2{
+    margin-left:200px;
+}
+
+.b1{
+    border:solid 3px ;
+    width: 300px;
+    height: 300px;
+    margin-left: 220px;
+    background-image: url("d44902f29d.png");
+    background-size: cover;
+}
+
+.b2{
+    margin-top: 30vw;
+    border:solid 3px ;
+    width: 300px;
+    height: 300px;
+    margin-left: 220px;
+    background-image: url("face-powder.png");
+    background-size: cover;
+}
+
+.b3{
+    margin-top: 30vw;
+    border:solid 3px ;
+    width: 300px;
+    height: 300px;
+    margin-left:220px;
+    background-image: url("lips.png");
+    background-size: cover;
+}
+
+.b{
+    transition-duration: 1s;
+}
+.b:hover{
+    background-image: url("%D1%87%D1%82%D0%BE-%D1%87%D0%B8%D1%82%D0%B0%D1%82%D1%8C-%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D0%B5%D0%BB%D1%8F%D0%BC.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
